@@ -1,0 +1,26 @@
+div {
+      height:100px;
+    width:100px;
+    margin:25px;
+    padding:25px;
+     display:inline-block;
+}
+
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: red;
+    display:none;
+}
+
+#three {
+    background-color: green;
+    visibility:hidden;
+}
+
+#four {
+    background-color: yellow;
+    
+}
