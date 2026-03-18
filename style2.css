@@ -1,0 +1,12 @@
+p {
+    text-align:right;
+}
+
+h1 {
+    text-align:end;
+    text-decoration:lightcoral wavy underline overline ;
+}
+
+a{
+    text-decoration:none ;
+}

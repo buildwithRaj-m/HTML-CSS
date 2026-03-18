@@ -1,0 +1,24 @@
+h1 {
+    text-align:center;
+    text-decoration:  rgb(10, 112, 201) underline;
+}
+
+#h1 {
+    font-weight:normal;
+}
+
+#h3 {
+    font-weight: bolder;
+}
+
+p {
+    text-align:center;
+}
+
+#one {
+    font-family:arial;
+}
+
+#two {
+    font-family:fantasy;
+}

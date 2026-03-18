@@ -1,0 +1,19 @@
+div {
+    height:120px;
+    width:120px;
+    background-color:pink;
+   /* border-width:4px;
+    border-style:solid;
+    border-color:green;*/
+    border: 4px solid green;
+}
+
+h1 {
+    width:150px;
+    background-color:aquamarine;
+   /* border-width: 3px;
+    border-style:dotted;
+    border-color:navy;*/
+    border: 3px dashed navy;
+    text-align:center;
+}

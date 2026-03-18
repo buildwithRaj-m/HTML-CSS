@@ -1,0 +1,11 @@
+h1 {
+    text-transform: capitalize;
+}
+
+#outer {
+    font-size:25px;
+}
+
+#inner {
+    font-size:10px;
+}
