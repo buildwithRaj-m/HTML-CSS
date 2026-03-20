@@ -1,0 +1,14 @@
+ul{
+    background-color: darkturquoise;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color:red;
+}
+
+li {
+    list-style-type: none;
+}
