@@ -1,0 +1,24 @@
+div {
+    height:100px;
+    width:100px;
+    background-color:plum;
+    border: 4px solid black;
+    display:inline-block;
+}
+
+body {
+    background-image: url("anime_stickers.png");
+    background-size: cover;
+}
+
+#one {
+    background-image: url("cat_photo.jpg");
+    background-size:cover;
+    height:120px;
+    
+}
+
+#three {
+    background-image: url("cat_photo.jpg");
+    background-size:contain;
+}
