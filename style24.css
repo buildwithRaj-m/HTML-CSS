@@ -1,0 +1,14 @@
+#box1 {
+    background-color: deeppink;
+    height:500px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#box2 {
+    height:100px;
+    width:100px;
+    background-color: mediumorchid;
+}
