@@ -1,0 +1,24 @@
+div {
+    height:100px;
+    width:100px;
+    background-color: cyan;
+    border: dashed black 2px;
+    color:blue;
+    position:absolute;
+    top:150px;
+    left:200px;
+    animation: animation 4s 1s infinite alternate;
+}
+
+@keyframes animation {
+    0% {  left: 0px;
+            background-color: yellow;
+            transform: scale(1);
+         }
+    50% {background-color: red;}
+    100%  {left: 300px;
+          background-color: darkgrey;
+          transform: scale(2);
+          color:crimson;
+        }
+    }
