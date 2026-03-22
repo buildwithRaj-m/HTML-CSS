@@ -1,0 +1,22 @@
+div {
+    height:100px;
+    width:100px;
+    background-color:blanchedalmond;
+    border: 2px dashed black;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: green underline;
+    position:absolute ;
+    top:100px;
+    left: 200px;
+    animation-name: colorAnimate;
+    animation-duration: 0,25s;
+   /* animation-timing-function: ease-in;*/
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorAnimate {
+    from {background-color: blanchedalmond;}
+    to {background-color: red;}
+}
