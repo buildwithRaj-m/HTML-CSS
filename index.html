@@ -1,51 +1,139 @@
 <!DOCTYPE html>
-<!--This is my first html code-->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first page</title>
-</head>
-<!-- this is a body tag -->
-<body>
-   <!-- <p>This is a paragraph .</p> -->
-    <h1>Heading 1</h1>
-    <h2>Heading 1</h2>
-    <h3>Heading 1</h3>
-    <h4>Heading 1</h4>
-    <h5>Heading 1</h5>
-    <h6>Heading 1</h6>
-    <p>Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph </p>
-    <hr>
-    <a href="https://www.google.com">Google</a>
-   <br />
-   <a href="https://code.visualstudio.com/download">Download VS code </a>
-   <br />
-   <a href="Hello.html">Go to Hello</a>
-   <br />
-<hr>
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGdWPi7Q5WwfCSKyP8JZIYt0_L_J-ijxi_Q&s" />
-   <br />
-   <img src="https://sleeky.in/cdn/shop/products/naruto-sticker.jpg?v=1636031556" alt="Naruto" height="250"/>
-   
-   <hr>
-   <b>Bold</b>
-   <br />
-   <i>Italic</i>
-   <br />
-   <u>underlined</u>
-   <hr>
-   <p> <b>Sample paragraph </b>Sample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph <i>Sample paragraph </i></p>
-   <br>
-   <big>This tag show big text</big>
-   <hr>
-   <small>This tag shows small text</small>
-   <hr>
-   <p><b>Water</b> = H<sub>2</sub>O</p>
-   <p>(A+B)<sup>2</sup>= A<SUP>2</SUP>+ B<SUP>2</SUP>+ 2AB</p>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>buildwithRaj | Projects</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
-   <pre>
-    Lorem              ipsum dolor sit amet consectetur, adipisicing elit. Rerum magni iusto aliquam alias id, incidunt nihil odit  quistemporibus eius eveniet reprehenderit debitis provident tempore culpa! Commodi quisquam ullam iste!
-</pre>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f1117;
+      color: #e0e0e0;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #ffffff;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #888;
+      font-size: 0.95rem;
+    }
+
+    header a {
+      color: #4ea8de;
+      text-decoration: none;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: #1a1d27;
+      border: 1px solid #2a2d3a;
+      border-radius: 12px;
+      padding: 24px;
+      transition: border-color 0.2s, transform 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .card:hover {
+      border-color: #4ea8de;
+      transform: translateY(-3px);
+    }
+
+    .card-tag {
+      font-size: 0.72rem;
+      background-color: #1e3a4f;
+      color: #4ea8de;
+      padding: 3px 10px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 14px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .card h2 {
+      font-size: 1.1rem;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 0.88rem;
+      color: #888;
+      line-height: 1.6;
+    }
+
+    .card-footer {
+      margin-top: 18px;
+      font-size: 0.8rem;
+      color: #4ea8de;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #444;
+      font-size: 0.82rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>buildwithRaj</h1>
+    <p>BCA Student · Learning Web Dev · <a href="https://github.com/buildwithRaj-m" target="_blank">GitHub</a></p>
+  </header>
+
+  <div class="grid">
+
+    <a class="card" href="amazon-clone/index.html">
+      <span class="card-tag">HTML & CSS</span>
+      <h2>Amazon Clone</h2>
+      <p>A front-end clone of Amazon's homepage — navbar, hero section, product cards, and footer built with pure HTML and CSS.</p>
+      <div class="card-footer">View project →</div>
+    </a>
+
+    <!-- Add more project cards below as you build them -->
+    <!--
+    <a class="card" href="project-folder/index.html">
+      <span class="card-tag">HTML & CSS</span>
+      <h2>Project Name</h2>
+      <p>Short description of what you built.</p>
+      <div class="card-footer">View project →</div>
+    </a>
+    -->
+
+  </div>
+
+  <footer>
+    <p>More projects coming as I learn — JavaScript next.</p>
+  </footer>
+
 </body>
 </html>
