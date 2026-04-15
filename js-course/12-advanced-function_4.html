@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrow Function</title>
+</head>
+<body>
+  <script>
+
+    [
+      'watch dinner',
+      'wash dishes',
+      'watch youtube'
+    ].forEach((value, index) => {
+      if (value === 'wash dishes') {
+        return;
+      }
+
+      console.log(index);
+      console.log(value);
+    });
+
+    const regularFunction = function(param, param2) {
+      console.log('hello');
+      return 5;
+    };
+
+    const arrowFunction = (param, param2) => {
+      console.log('hello');
+      return 5;
+    };
+    arrowFunction();
+
+    const oneParam = param => {
+      console.log(param + 1);
+    };
+    oneParam(5);
+
+    const oneLine = () => 2 + 3;    //One liner brackets are optional
+    console.log(oneLine());
+
+    const object2 = {
+      method: () => {
+
+      },
+      method() {
+        
+      }
+    }
+  </script>
+  
+</body>
+</html>
